@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-heores',
-  templateUrl: './heores.component.html',
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html',
   styles: []
 })
-export class HeoresComponent implements OnInit {
+export class HeroesComponent implements OnInit {
 
   constructor() { }
 
