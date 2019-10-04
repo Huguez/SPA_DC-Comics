@@ -1,0 +1,24 @@
+<h1>{{ heroe.nombre }} <small> {{heroe.aparicion}} </small> </h1>
+
+<hr>
+
+<div class="row animated fadeIn fast">
+
+    <div class="col">
+
+        <img [src]="heroe.img" class="img-fluid" [alt]="heroe.nombre">
+        <br><br>
+    </div>
+
+    <div class="col">
+
+        <h3>{{heroe.nombre}}</h3>
+        <hr>
+        <div>
+            <img style="width: 100px;" [src]="casa" [alt]="heroe.casa">
+        </div>
+        <p>{{heroe.bio}}.</p>
+        <button (click)="backClicked()" class="btn btn-outline-danger btn-block">Regresar</button>
+    </div>
+
+</div>
